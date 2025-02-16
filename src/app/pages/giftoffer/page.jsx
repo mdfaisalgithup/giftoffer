@@ -91,14 +91,14 @@ const GiftOffer = () => {
       {ProductData.map((product, index) => (
       
         <div key={index} className="w-full
-        h-[505px]  max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
+        xl:h-[505px] lg:h-[505px] sm:h-[505px] h-[505px]  max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
 
           <div>
             
           <div className="flex justify-center items-center">
             <div className="m-8">
             <Link href={product.link} target="_self">
-            <img className=" w-[200px] rounded-md object-fill h-[210px]" src={product.image} alt={product.name} />
+            <img className="w-[200px] rounded-md object-fill xl:h-[210px] lg:h-[210px] sm:h-[210px] h-[140px]" src={product.image} alt={product.name} />
             </Link>
             </div>
           </div>
@@ -144,7 +144,7 @@ const GiftOffer = () => {
 
 
 
-<div className="w-[60%] font-lato text-[17px] h-max  m-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+<div className="xl:w-[60%] lg:w-[60%] sm:w-[60%] w-[80%] font-lato text-[17px] h-max  m-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
              <div>
               <Link href={product.link} target="_self">
               Grab the offer now

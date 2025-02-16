@@ -34,7 +34,7 @@ const bannerData = {
  h-[600px] object-cover opacity-50" alt="banner" src="https://i.ibb.co.com/hXJxVnk/photo-1697545806245-9795b6056141.jpg" width={800} height={300}></Image>
 
 <div className="w-full h-full flex justify-center items-center absolute top-0 z-50 text-white">
-<h2 className="text-[40px] font-light">{bannerData.title}</h2>
+<h2 className="xl:text-[40px] lg:text-[40px] sm:text-[40px] text-[20px] font-light">{bannerData.title}</h2>
 </div>
 
 </div> : <div></div>
